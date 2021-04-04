@@ -31,4 +31,16 @@
 /**
  * runs a job scheduled
  */
-// const serverTest = require('./job-schedule/timing')
+// const serverTest = require('./job-schedule/timing')3
+
+/**
+ * using console input/output
+ */
+const argumentsFromConsole = process.argv  //get array of values used on node command
+console.log('argumentsFromConsole', argumentsFromConsole)
+process.stdout.write(`tell me something\n`)
+process.stdin.on('data', data => {
+    const outside = data.toString()
+    process.stdout.write(`you told me::${outside}!!!`)
+    process.exit()
+})
