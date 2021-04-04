@@ -16,4 +16,9 @@
 /**
  * runs scrips related to file treatings
  */
-//const readingFiles = require('./file/client-file')
+//const fileTest = require('./file/client-file')
+
+/**
+ * runs scrips related to middleware pattern
+ */
+//const middlewaresTest = require('./middlewares/middlewares')
