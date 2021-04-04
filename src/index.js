@@ -19,6 +19,11 @@
 //const fileTest = require('./file/client-file')
 
 /**
- * runs scrips related to middleware pattern
+ * runs scrips related to middleware pattern (chain of responsability)
  */
 //const middlewaresTest = require('./middlewares/middlewares')
+
+/**
+ * runs a project running on express
+ */
+//const serverTest = require('./server/server')
