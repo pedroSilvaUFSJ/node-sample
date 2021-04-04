@@ -27,3 +27,8 @@
  * runs a project running on express
  */
 //const serverTest = require('./server/server')
+
+/**
+ * runs a job scheduled
+ */
+const serverTest = require('./job-schedule/timing')
